@@ -1,3 +1,4 @@
+package tareas.parcial1
 class Racional (n: Int , d: Int){
     private val divisor = mcd(n,d)
         val numerador = n / divisor
