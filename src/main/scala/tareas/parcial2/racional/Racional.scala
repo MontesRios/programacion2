@@ -1,3 +1,4 @@
+package parcial2.racional
 class Racional (n: Int , d: Int){
     private val divisor = mcd(n,d)
         val numerador = n / divisor
@@ -12,23 +13,28 @@ class Racional (n: Int , d: Int){
         }
 }  
     
-//Suma de 2 fracciones.
-    
-def add(b: Racional):Racional = {
+//Suma de 2 fracciones.  
+def suma(b: Racional):Racional = {
     new Racional(numerador * b.denominador + denominador * b.numerador , denominador * b.denominador)
 }
 
 //Resta de 2 fracciones.
-def subtrac(b: Racional):Racional = {
+def resta(b: Racional):Racional = {
     new Racional(numerador * b.denominador - b.numerador * denominador , denominador * b.denominador)
 }
 //Multiplicación de 2 fracciones.    
-def multiply(b: Racional):Racional ={
+def multiplicacion(b: Racional):Racional ={
     new Racional(numerador * b.numerador , denominador * b.denominador)
 }
     
 //División de 2 fracciones.
-def divide(b: Racional):Racional ={
+def division(b: Racional):Racional ={
     new Racional(numerador * b.denominador , denominador * b.numerador)
     }
+    
+//Resultado
+def resultado(): String = {
+numerador + "/" + denominador
+}
+    
 }

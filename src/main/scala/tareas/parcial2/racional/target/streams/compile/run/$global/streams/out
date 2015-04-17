@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mRunning parcial2.Racional.CalculadoraRacional [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	E:\Users\Jorge Montes\Documents\GitHub\programacion2\src\main\scala\tareas\parcial2\racional\target\scala-2.10\classes[0m
+[0m[[0mdebug[0m] [0m	C:\Users\JorgeEduardo\.sbt\boot\scala-2.10.4\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\JorgeEduardo\.ivy2\cache\com.github.nscala-time\nscala-time_2.10\jars\nscala-time_2.10-1.8.0.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\JorgeEduardo\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.7.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\JorgeEduardo\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.2.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m
