@@ -12,10 +12,6 @@ class Professor(val nameP: String,
                 val pay:Float,
                 var dept: Department = null)extends Person(nameP,socialSecurityNumberP,addressP,sexP,dateOfBirthP,careerP)
 {
-    //def assignDepartment (department:Department): Professor = {
-    //  dept = department
-    //    new Professor(name,socialSecurityNumber,address,sex,dateOfBirth,career,cat,officeN,ext,py,dept)
-    //    }
     def showProfessor(){
         println("\nLos datos que ingreso son los siguientes:\n")
         println("\tNombre: " + nameP)
